@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const Sidebar = () => {
   return (
@@ -12,18 +12,11 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/about" className="block py-2 hover:bg-gray-700">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link href="/services" className="block py-2 hover:bg-gray-700">
-              Services
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact" className="block py-2 hover:bg-gray-700">
-              Contact
+            <Link
+              href="/troopInformations"
+              className="block py-2 hover:bg-gray-700"
+            >
+              Troop Informations
             </Link>
           </li>
         </ul>
